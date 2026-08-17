@@ -17,5 +17,10 @@ def users():
 def sobre():
    return "Projeto de exemplo, aula entrega continua"
 
+@app.route("/equipe")
+def equipe():
+   return [{"emailProfissional": "t@indaiatuba.sp.gov.br", "nome": "Paulo"},
+            {"emailProfissional": "a@indaiatuba.sp.gov.br", "nome": "Ana"}]
+
 if __name__ == "__main__":
    app.run(debug=True)
