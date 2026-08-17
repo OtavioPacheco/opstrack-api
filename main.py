@@ -13,7 +13,9 @@ def users():
    return [{"email": "t@gmail.com", "nome": "tavi"},
             {"email": "a@gmail.com", "nome": "ana"}]
 
-
+@app.route("/sobre")
+def sobre():
+   return "Projeto de exemplo, aula entrega continua"
 
 if __name__ == "__main__":
    app.run(debug=True)
