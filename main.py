@@ -16,5 +16,9 @@ def users():
 def sobre():
     return "Api direcionada aos usuarios"
 
+@app.route("/equipe")
+def equipe():
+    return "Bento, Otavio, Gustavo, Davi, Cauan, Tiago"
+
 if __name__ == "__main__":
    app.run(debug=True)
