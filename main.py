@@ -3,6 +3,24 @@ app = Flask(__name__)
 @app.route("/")
 def projetoOtavio():
    return {"Servico": "OpsTrackAPI", "Status": "ONLINE"}
+#teste
+@app.route("/help")
+def help():
+   return "Pagina destinada a ajuda do user"
+
+@app.route("/users")
+def users():
+   return [{"email": "t@gmail.com", "nome": "tavi"},
+            {"email": "a@gmail.com", "nome": "ana"}]
+
+@app.route("/sobre")
+def sobre():
+   return "Projeto de exemplo, aula entrega continua"
+
+@app.route("/equipe")
+def equipe():
+   return [{"emailProfissional": "t@indaiatuba.sp.gov.br", "nome": "Paulo"},
+            {"emailProfissional": "a@indaiatuba.sp.gov.br", "nome": "Ana"}]
 
 @app.route("/help")
 def help():
