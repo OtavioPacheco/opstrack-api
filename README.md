@@ -1,3 +1,13 @@
+# OPSTRACK-API
+
+Este projeto tem como objetivo realizar testes de integração em um
+fluxo de Integração Contínua e Entrega Contínua (CI/CD).
+
+Para padronizar as verificações de código entre os integrantes da
+equipe, o projeto utiliza Flake8 e pre-commit. Após a configuração
+do ambiente, o hook executa automaticamente a análise dos arquivos
+Python antes de cada commit.
+
 ## Configuração do ambiente de desenvolvimento
 
 O projeto utiliza Flake8 para verificar o código Python e pre-commit
