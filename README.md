@@ -1,3 +1,5 @@
+![CI]([https://github.com/linconperetto/aula-teste/actions/workflows/ci.yml/badge.svg](https://github.com/OtavioPacheco/opstrack-api.git))
+
 # OPSTRACK-API
 
 Este projeto tem como objetivo realizar testes de integração em um
