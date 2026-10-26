@@ -15,4 +15,4 @@ jobs:
           python-version: '3.12'
       - run: pip install  -r requirements-dev.txt
       - run: flake8 . --count
-      - run: pytest --cov-fall-under=85
+      - run: python -m pytest teste.py --cov=main --cov-report=term-missing --cov-fail-under=85
